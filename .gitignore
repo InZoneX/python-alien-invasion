@@ -1,10 +1,39 @@
+# Python 字节码 / 缓存
 __pycache__/
+*.py[cod]
 *.pyc
 *.pyo
 *.pyd
-.Python
+
+# 虚拟环境
+.env
 env/
 venv/
-.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 打包 / 分发文件
+build/
+dist/
 *.egg-info/
+.installed.cfg
+
+# 测试 / 覆盖率
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# IDE / 编辑器文件
+.idea/
 .vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 其他常见
+*.log
+*.pot
+*.mo
+db.sqlite3
